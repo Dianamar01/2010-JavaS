@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!--incluir CSS y luego va a style en lado izq para modificar por ej todos los h1 -->
+    <title>Document nombre documento</title>
+</head>
+<body>
+   <h1>Hola, soy Marcela Pulido</h1>
+   <img src="FotoPerfil.jpg" alt="Foto de perfil de Marcela Pulido" class="imgPerfil"><!--insertó class= para ir luego a style css-->
+   <img src="" alt="">
+   <h2 class="perfil">Mi Perfil</h2><!--se adicionó div class para estilo de esta línea, al título-->
+   <div class="contenidoperfil"><!--se abrió este div class para asociarlo a css y cierra en la 26-->
+   <h3 class="perfilacad">Perfil Académico</h3><!--se abre clase perfilacad para este título-->
+   <div class="contenidoperfilacad"><!--se abrió esta división o div solo para el contenido perfilacad y cierra en la 20-->
+   <p>Especialista en Gerencia Integral de Proyectos</p>
+   <p>Profesional en Administración y Construcción Arquitectónica</p>
+   <p>Ingeniera Industrial</p>
+    </div>
+   <h3>Reconocimientos</h3>
+   <p>Matrículas de Honor por rendimiento Académico. </p>
+   <p>Máxima nota por Proyecto Integrado propuesta para empresa Alpina. </p>
+   <h3>Perfil Profesional</h3>
+   <p>Amplia experiencia en gestión administrativa y de proyectos, desempeño en áreas de contratos, compras, programación, gestión de obras, proyectos académicos, de investigación e innovación y educación. Habilidad para planear y organizar el trabajo, analizar información , presentar informes, redactar todo tipo de documentos y trabajar en equipo. Tengo posgrado en Especialización en Gerencia Integral de Proyectos, pregrado en Administración y Construcción Arquitectónica.</p>
+   <p>Siempre estoy aprendiendo en pro del crecimiento intelectual y profesional, me encanta asumir desafíos personales y empresariales. Valoro mucho las oportunidades de potencializarme en nuevas áreas.</p>
+   <p>Disfruto asumir retos y los cambios. Soy asertiva, analítica, resolutiva y creativa, doy lo mejor que puedo por lo cual he logrado excelencia académica y reconocimiento profesional. Me gusta el gimnasio y el tiempo en familia.</p>
+   </div>
+    <ul>
+    <li><a href="https://www.linkedin.com/in/dianamarpuma/">Ver mi LinkedIn</a></li>
+    <li><a href="https://www.facebook.com/marpuma">Ir a mi Facebook</a></li>
+</ul>
+<h3>Mis Hobbies</h3>
+<p>Me gusta leer temas de tecnología y superación personal, ejercitarme en el parque, aprender cosas nuevas. Ir a teatro, las experiencias gastronómicas, los viajes y los eco paseos.</p>
+<h3>Mi Experiencia Laboral</h3>
+<h4>Universidad Colegio Mayor de Cundinamarca</h4>
+<p>Docente Cátedra: en áreas de fundamentos y gestión administrativa.</p>
+<p>Coordinación de Programa : planeación y ejecución de actividades, coordinación académica sector estudiantil, elaboración de informes, presentación en comité, relación estadística, auditor de calidad. </p>
+<p>Investigación: planeación del proyecto, elaboración de propuesta, investigación, presentación de ponencias, redacción de capítulos de libro y otros documentos.</p>
+<h4>Universidad Militar Nueva Granada</h4>
+<p>Proceso de Contratos: trámite términos de referencia licitaciones públicas y privadas, preparación de audiencias de aclaraciones, elaboración de evaluaciones técnicas y económicas, elaboración y seguimiento de Contratos, participación en Comités, liquidación de contratos. </p>
+<p>Proceso de Compras: relación con proveedores, actualización de presupuestos, trámite de compras, gestión de cronogramas, coordinación interna. </p>
+<h3>Reconocimientos</h3>
+<p>A la Excelencia Docente</p>
+<br><!--  ACA ES UN COMENTARIO -->
+<form action="submit" method="post"><!--  esta línea indica qué debe hacer el boton y cómo, pero aquí no se se hizo porque es en Java Script -->
+    <h2>Contacto</h2>
+    <ul><!--  es una lista no ordenada -->
+        <li><!--  cada elemento de la lista -->
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+        </li>
+        <li>
+            <label for="mail">Correo Electrónico</label>
+            <input type="email" name="user_mail" id="mail">
+        </li>
+        <li>
+            <label for="tel">Número Telefónico</label>
+            <input type="number" name="Tel" id="tel">
+        </li>
+        <li>
+            <label for="msg">Escribe tus dudas aquí</label>
+            <textarea name="msg" id="msg"></textarea>
+        </li>
+        <li>
+            <button type="submit">Click para enviar tu mensaje</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
